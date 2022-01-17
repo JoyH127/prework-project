@@ -1,0 +1,117 @@
+
+    h3,h1{ 
+      text-align: center;
+        color: white;
+        font-family: "montserrat";
+     }
+     h2 {
+      text-decoration: underline darkgoldenrod;
+      text-align: center;
+      font-family: "montserrat";
+      color: darkgoldenrod;
+     }
+     p {
+      line-height: 1.5;
+      text-align: center;
+      font-family: "montserrat";
+     }
+     .top_b {
+      padding: 10px;
+      background-color: black;
+
+     }
+     .profile img {
+      width: 400px;
+      height: 100%;
+      display: block;
+      margin: 50px 300px auto;
+
+     }
+    .intro { 
+      padding: 20px 5px 20px 5px;
+      width: 400px;
+      position: absolute;
+      left: 800px;
+      background-color: black;
+      top: 400px;
+      color: white;
+      border-radius: 10px;
+
+    }
+    .fav {
+      font-weight: bold;
+      color: darkgoldenrod;
+      text-align: center;
+      font-family: "montserrat";
+     }
+     a {
+      color: purple;
+      text-decoration: none;
+      font-family: "montserrat";
+     }
+     nav {
+      position: sticky;
+      top: 0;
+      border: solid 1px black;
+      text-align: center;
+
+     }
+     nav > a {
+        color: black;
+        display: inline-block;
+        padding:  10px 50px 10px 50px;
+        transition: 0.5s;
+
+     }
+
+     nav > a:hover{
+      background-color: black;
+      color: white;
+      opacity: 1;
+     }
+     .experience {
+      margin: 30px 0 50px 0;
+     }
+
+     .experience > h3{
+      display: block;
+      width: 200px;
+      padding: 10px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      background-color: black;
+     }
+     table {
+      margin: 0 auto;
+     }
+     table th, td {
+      text-align: center;
+      padding: 10px;
+      border:  1px solid darkblue;
+      font-family: "montserrat";
+
+     }
+    .footer {
+      padding: 10px 0 10px 0;
+      background-color: black;
+    }
+    .btn a, .btn_two a{
+      color: white;
+      margin: 10px;
+    }
+    .btn {
+      width: 100px;
+      display: inline-block;
+      padding: 10px;
+      border: solid 1px white;
+      border-radius: 5px;
+      margin-left: 50px;
+    }
+
+    .btn_two {
+      width: 100px;
+      display: inline-block;
+      padding: 10px;
+      border-radius: 5px;
+      border: solid 1px white;
+    }

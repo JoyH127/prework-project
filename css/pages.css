@@ -1,0 +1,161 @@
+    body{
+      background-color: lightgrey;
+    }
+    h1,h3{ 
+        color: white;
+        font-family: "montserrat";
+     }
+     h2 {
+      text-decoration: underline darkblue;
+      text-align: center;
+      font-family: "montserrat";
+     }
+     .banner{
+      position: relative;
+      height: 150px;
+      background-color: black;
+      margin-bottom: 20px;
+     }
+     .banner h1 {
+      position: absolute;
+      top: 30px;
+      left: 300px;
+     }
+
+    .thumb img {
+      width: 400px;
+      height: 100%;
+      display: block;
+      margin: auto;
+
+     }
+     #projec_intro {
+
+      font-weight:500;
+      color: darkblue;
+      font-family: "montserrat";
+
+     }
+     p {
+      line-height: 1.5;
+      text-align: center;
+      font-family: "montserrat";
+     }
+     a {
+      color: purple;
+      text-decoration: none;
+      font-family: "montserrat";
+     }
+     .m_one iframe{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+     }
+     nav {
+      position: sticky;
+      top: 0;
+      border: solid 1px black;
+      text-align: center;
+
+     }
+     .work {
+      display: inline-flex;
+     }
+     nav > a {
+        color: black;
+        display: inline-block;
+        padding:  10px 50px 10px 50px;
+        transition: 0.5s;
+
+     }
+
+     nav > a:hover{
+      background-color: black;
+      color: white;
+      opacity: 1;
+     }
+     .wrapper{
+      width: 550px;
+      border:  1px solid black;
+      margin: 0 auto;
+      padding:  10px 0 10px 0;
+      font-family: "montserrat";
+      border-radius: 10px;
+     }
+
+     .wrapper h3{
+      text-align: center;
+      color: black;
+
+     }
+     form ul{
+      list-style: none;
+     }
+     input[type=email] {
+      margin: 0px 0px 5px 5px;
+
+     }
+     input[type=text] {
+      margin: 0px 0px 5px 2px;
+
+     }
+     input[type=submit] {
+      position: relative;
+      left: 210px;
+      padding: 10px;
+      margin-bottom: 20px;
+      transition: 0.5s;
+     }
+
+      input[type=submit]:hover {
+        background-color: black;
+        color: white;
+        opacity: 1;
+     }
+
+    
+    section {
+      width: 50%;
+      text-align: center;
+      background-color: black;
+      margin: 0 auto;
+    }
+
+    section article{
+      background-color: black;
+      float: left;
+      box-sizing: border-box;
+      margin-bottom: 50px;
+
+    }
+
+    section img{
+      width: 300px;
+    }
+
+
+    .footer {
+      clear: both;
+      padding: 10px 0 10px 0;
+      background-color: black;
+    }
+    .btn a, .btn_two a{
+      color: white;
+      margin: 10px;
+    }
+    .btn {
+      width: 100px;
+      display: inline-block;
+      padding: 10px;
+      border: solid 1px white;
+      border-radius: 5px;
+      margin-left: 50px;
+    }
+
+    .btn_two {
+      width: 100px;
+      display: inline-block;
+      padding: 10px;
+      border-radius: 5px;
+      border: solid 1px white;
+    }
